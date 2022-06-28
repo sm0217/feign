@@ -66,7 +66,7 @@
     <dependency>
       <groupId>com.google.auto.service</groupId>
       <artifactId>auto-service</artifactId>
-      <version>1.0-rc5</version>
+      <version>1.0.1</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
@@ -187,7 +187,6 @@
       </activation>
 
       <properties>
-        <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <jvm.options>--add-opens jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED</jvm.options>
       </properties>
     </profile>
